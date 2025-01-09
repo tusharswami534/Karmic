@@ -11,6 +11,9 @@ module.exports = {
       fontFamily: {
         'sunflower': ['"Sunflower"', 'sans-serif'],
       },
+      colors: {
+        'light-black': '#1E1E1E',
+      },
     },
   },
   plugins: [],

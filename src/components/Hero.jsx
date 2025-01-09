@@ -19,7 +19,7 @@ const Hero = () => {
                       <button className='font-light font-sunflower text-base leading-5 border border-solid border-white rounded-[82px] px-8 py-3 max-sm:text-sm max-sm:leading-4 text-white'>Read More</button>
                   </div>
                 </div>
-                <div className='w-5/12 max-lg:w-full flex jestify-end'>
+                <div className='w-5/12 max-lg:w-full flex justify-end'>
                   <img className='max-w-[398px]' src={HeroImage} alt="hero-image" />
                 </div>
             </div>
