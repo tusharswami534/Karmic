@@ -1,5 +1,6 @@
 import './App.css';
 import Hero from './components/Hero';
+import Services from './components/Services';
 import UpcomingProjects from './components/UpcomingProjects';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
     <Hero/>
     <UpcomingProjects/>
+    <Services/>
     </>
   );
 }

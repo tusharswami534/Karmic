@@ -6,7 +6,7 @@ import { UPCOMING_PROJECTS } from '../utils/helper'
 const UpcomingProjects = () => {
   return (
     <div className='py-[60px] flex justify-center flex-col items-center'>
-        <Heading commonHeading={'Upcoming Projects'} lineClass={'flex'} headingLine={<HeadingLine/>}/>
+        <Heading commonHeading={'Upcoming Projects'} lineClass={'flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'} headingLine={<HeadingLine/>}/>
         <div className='max-w-[1140px] w-full  max-xl:gap-[29px] max-xl:justify-center max-xl:flex-wrap mx-auto flex justify-between py-12 max-lg:py-10 max-md:py-8 max-sm:py-6 items-center'>
             {UPCOMING_PROJECTS.map((item , index) => (
               <div key={index} className='max-w-[263px] border-solid border-white border-opacity-10 border bg-light-black w-full rounded-xl p-4'>
