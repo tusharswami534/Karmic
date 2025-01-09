@@ -1,0 +1,9 @@
+body{
+    background-image: url('./assets/image/webp/bg-image.webp');
+}
+
+@media (max-width: 767.98px){
+    .page-logo svg{
+        max-width: 120px;
+    }
+}
