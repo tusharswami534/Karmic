@@ -7,7 +7,7 @@ import ServicesShadow from '../assets/image/webp/services-shadows.webp'
 
 const Services = () => {
   return (
-    <div className="relative py-[70px]">
+    <div className="relative pt-[70px]">
       <img className="absolute -top-1/2 right-0" src={ServicesShadow} alt="services" />
       {/* <img className="absolute -bottom-1/2 left-0" src={ServicesBottomShadow} alt="services" /> */}
       <div className="max-w-[1145px] w-full mx-auto flex max-lg:items-center flex-col">
@@ -24,8 +24,8 @@ const Services = () => {
               className="w-4/12 max-lg:justify-center max-lg:flex px-[10.5px] max-lg:w-1/2 max-md:w-full"
               key={index}
             >
-              <div className={`p-[22.22px] max-w-[369px] w-full group relative rounded-xl z-20 hover:backdrop-blur-[10px] hover:bg-white hover:bg-opacity-10 drop-shadow-[0_4px_20px_rgba(0,0,0,15)]`}>
-                <div className="w-[74px] h-[73px] absolute top-[-10%] right-[-10%] group-hover:opacity-[100%] -z-10 opacity-0 bg-white rounded-full"></div>
+              <div className={`p-[22.22px] max-w-[369px] w-full group relative rounded-xl z-20 hover:backdrop-blur-[10px] border border-transparent border-solid hover:!border-white  hover:!border-opacity-10  hover:bg-white hover:bg-opacity-10 drop-shadow-[0_4px_20px_rgba(0,0,0,15)]`}>
+                <div className="w-[74px] h-[73px] absolute top-[-10%] right-[-10%] group-hover:opacity-[100%] hidden  group-hover:block -z-10 opacity-0 bg-white rounded-full"></div>
                 {item.logo}
                 <h3 className="font-bold text-xl leading-7 text-white max-lg:text-lg pt-5">
                   {item.heading}

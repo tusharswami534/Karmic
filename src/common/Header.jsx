@@ -17,7 +17,7 @@ const Header = () => {
     <div className="relative px-5 pt-[11px] max-xl:pt-5">
       <img className="absolute top-0 left-0" src={HeroShadow} alt="shadow" />
       <div className="max-w-[1140px] flex justify-between items-center mx-auto">
-        <a className="page-logo" href="/">
+        <a className="page-logo relative z-10" href="/">
          <PageLogo/>
         </a>
         <div
