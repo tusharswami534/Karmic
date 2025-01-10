@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <>
         <Header/>
-        <div className='min-h-[726px] flex justify-center items-center max-xl:px-5 bg-hero-image bg-top bg-no-repeat'>
+        <div className='min-h-[726px] flex justify-center items-center max-xl:px-5 bg-hero-image bg-hero-set bg-no-repeat'>
             <div className='max-w-[1122px] w-full gap-y-5 max-lg:py-[139px] max-md:py-[80px] flex mx-auto max-lg:flex-wrap'>
                 <div className='w-7/12 max-lg:w-full'>
                   <h1 className='lg:max-w-[570px] text-white text-[64px] font-light uppercase leading-[69.54px] max-lg:text-6xl max-md:text-5xl max-sm:text-4xl'>We are believers decentralization and <span className='relative '> <img className='absolute top-0 right-0 max-w-[158px] w-full' src={TopLine} alt="topLIne" /> Web3. <img className='absolute bottom-0 left-0 max-w-[169px] w-full' src={BottomLine} alt="bottomLIne" /> </span> </h1>

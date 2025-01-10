@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import {  HEADER_LIST } from "../utils/helper";
 import { PageLogo } from "../utils/icons";
+import HeroShadow from '../assets/image/png/hero-top-shadow.png'
 
 const Header = () => {
   const [open , setOpen] = useState(false);
@@ -14,6 +15,7 @@ const Header = () => {
 
   return (
     <div className="relative px-5 pt-[11px] max-xl:pt-5">
+      <img className="absolute top-0 left-0" src={HeroShadow} alt="shadow" />
       <div className="max-w-[1140px] flex justify-between items-center mx-auto">
         <a className="page-logo" href="/">
          <PageLogo/>

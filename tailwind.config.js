@@ -8,6 +8,9 @@ module.exports = {
       backgroundImage: {
         'hero-image': "url('./assets/image/webp/hero-bg-layer.webp')",
       },
+      backgroundSize:{
+        'hero-set' :'100% 726px'
+      },
       fontFamily: {
         'sunflower': ['"Sunflower"', 'sans-serif'],
       },

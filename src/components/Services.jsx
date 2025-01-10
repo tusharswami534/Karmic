@@ -2,11 +2,15 @@ import React from "react";
 import Heading from "../common/Heading";
 import { HeadingLine } from "../utils/icons";
 import { SERVICES_LIST } from "../utils/helper";
+import ServicesShadow from '../assets/image/webp/services-shadows.webp'
+// import ServicesBottomShadow from '../assets/image/png/services-bottom-shadow.png'
 
 const Services = () => {
   return (
-    <div>
-      <div className="max-w-[1145px] w-full mx-auto flex flex-col">
+    <div className="relative py-[70px]">
+      <img className="absolute -top-1/2 right-0" src={ServicesShadow} alt="services" />
+      {/* <img className="absolute -bottom-1/2 left-0" src={ServicesBottomShadow} alt="services" /> */}
+      <div className="max-w-[1145px] w-full mx-auto flex max-lg:items-center flex-col">
         <Heading
           commonHeading={"Services"}
           lineClass={
@@ -17,10 +21,11 @@ const Services = () => {
         <div className="flex pt-[77px] max-lg:pt-16 max-md:pt-12 max-sm:pt-8 gap-y-10 flex-wrap">
           {SERVICES_LIST.map((item, index) => (
             <div
-              className="w-4/12 px-[10.5px] max-lg:w-1/2 max-md:w-full"
+              className="w-4/12 max-lg:justify-center max-lg:flex px-[10.5px] max-lg:w-1/2 max-md:w-full"
               key={index}
             >
-              <div className={`p-[22.22px] max-w-[369px] rounded-xl ${index === 1 ? 'backdrop-blur-[10px] bg-white bg-opacity-10 drop-shadow-[0_4px_20px_rgba(0,0,0,15)]' : ''}`}>
+              <div className={`p-[22.22px] max-w-[369px] w-full group relative rounded-xl z-20 hover:backdrop-blur-[10px] hover:bg-white hover:bg-opacity-10 drop-shadow-[0_4px_20px_rgba(0,0,0,15)]`}>
+                <div className="w-[74px] h-[73px] absolute top-[-10%] right-[-10%] group-hover:opacity-[100%] -z-10 opacity-0 bg-white rounded-full"></div>
                 {item.logo}
                 <h3 className="font-bold text-xl leading-7 text-white max-lg:text-lg pt-5">
                   {item.heading}
@@ -35,7 +40,7 @@ const Services = () => {
                     {item.list.map((listItem, subIndex) => (
                       <li key={subIndex}>{listItem}</li>
                     ))}
-                  </ul>
+                  </ul> 
                 )}
               </div>
             </div>
