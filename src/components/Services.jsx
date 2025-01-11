@@ -6,7 +6,7 @@ import ServicesBottomShadow from '../assets/image/png/services-bottom-shadow.png
 
 const Services = () => {
   return (
-    <div className="relative pt-[136px] max-lg:pt-28 max-md:pt-24 max-sm:pt-20 max-md:pb-10">
+    <div id="services" className="relative pt-[136px] max-lg:pt-28 max-md:pt-24 max-sm:pt-20 max-md:pb-10">
       <img className="absolute -top-1/2 max-md:top-[-25%] -z-10 right-0" src={ServicesShadow} alt="services" />
       <img className="absolute -bottom-1/2 left-0 max-md:hidden" src={ServicesBottomShadow} alt="services" />
       <div className="max-w-[1145px] w-full mx-auto flex max-lg:items-center flex-col">

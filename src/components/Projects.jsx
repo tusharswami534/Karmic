@@ -4,7 +4,7 @@ import { PROJECTS_LIST } from '../utils/helper'
 
 const Projects = () => {
   return (
-    <div className='py-24 max-md:py-10 bg-project-image bg-top max-xl:!bg-white bg-no-repeat bg-cover lg:min-h-[902px]'>
+    <div id='projects' className='py-24 max-md:py-10 bg-project-image bg-top max-xl:!bg-white bg-no-repeat bg-cover lg:min-h-[902px]'>
         <Heading headingClass={'!text-black'} commonHeading={"Projects"} lineClass={ "max-md:max-w-[210px] max-md:w-full flex absolute project-line top-[46%] left-1/2 -translate-x-1/2 -translate-y-1/2"}/>
             <p className='pt-6 max-w-[532px] mx-auto max-lg:pt-4 max-md:pt-3 font-normal text-base leading-[150%] text-center max-md:text-sm max-md:px-5'>Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.</p>
             <div className='flex max-w-[1140px] pt-[53px] max-md:pt-[30px] gap-y-6 w-full max-xl:justify-center mx-auto flex-wrap'>

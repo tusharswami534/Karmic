@@ -3,13 +3,14 @@ import Header from '../common/Header'
 import BottomLine from '../assets/image/webp/hero-text-bootom-line.webp'
 import TopLine from '../assets/image/webp/hero-text-top-line.webp'
 import HeroImage from '../assets/image/webp/hero-image.webp'
-import { ButtonArrow } from '../utils/icons'
+import { ButtonArrow, HeroArrow } from '../utils/icons'
 
 const Hero = () => {
   return (
     <>
         <Header/>
-        <div className='min-h-[726px] flex justify-center items-center max-xl:px-5 bg-hero-image bg-hero-set max-xl:!bg-cover bg-no-repeat'>
+        <div className='min-h-[726px] flex justify-center relative items-center max-xl:px-5 bg-hero-image bg-hero-set max-xl:!bg-cover bg-no-repeat'>
+          <a href='#home' className='absolute left-1/2 -translate-x-1/2 bottom-[10%] max-lg:bottom-0'><HeroArrow/></a>
             <div className='max-w-[1122px] w-full gap-y-5 max-lg:py-[60px] flex mx-auto max-lg:flex-wrap'>
                 <div className='w-7/12 max-lg:w-full'>
                   <h1 className='lg:max-w-[570px] text-white text-[64px] font-light uppercase leading-[69.54px] max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-lg:text-center'>We are believers decentralization and <span className='relative '> <img className='absolute top-0 right-0 max-w-[158px] w-full' src={TopLine} alt="topLIne" /> Web3. <img className='absolute bottom-0 left-0 max-w-[169px] w-full' src={BottomLine} alt="bottomLIne" /> </span> </h1>
