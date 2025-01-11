@@ -2,9 +2,9 @@ import Nubbies from '../assets/image/webp/nubbies.webp'
 import Nekozuma from '../assets/image/webp/nekozuma.webp'
 import Galactium from '../assets/image/webp/galactium.webp'
 import FrenzForever from '../assets/image/webp/frenz-forever.webp'
-import ProjectOne from '../assets/image/gif/project-card-1.gif'
+import ProjectOne from '../assets/image/png/project-card-1.png'
 import ProjectTwo from '../assets/image/png/project-card-2.png'
-import ProjectThree from '../assets/image/gif/project-card-3.gif'
+import ProjectThree from '../assets/image/png/project-card-3.png'
 import ProjectFour from '../assets/image/png/project-card-4.png'
 import ProjectFive from '../assets/image/png/project-card-5.png'
 import ProjectSix from '../assets/image/png/project-card-6.png'
@@ -30,6 +30,7 @@ export const HEADER_LIST = [
         link: '#about'
     },
 ]
+
 export const UPCOMING_PROJECTS =[
     {
         image : Nubbies ,
@@ -59,12 +60,13 @@ export const UPCOMING_PROJECTS =[
         type : 'NFT'
     },
 ]
+
 export const SERVICES_LIST = [
     {logo : <SmartContractIcon/> ,
     heading : 'Smart Contract ',
     description : 'Tailored smart contracts to fit your needs , no matter the size. No idea is too big, too small, or too degen... '
     },
-    // 
+
     {
         logo : <WebThreeIcon/>,
         heading : 'Web3 Services',
@@ -91,6 +93,7 @@ export const SERVICES_LIST = [
         description : 'NFT solutions from start to finish. From Initial Concept to Secondary market listings, we will guide you every step of the way to ensure your project is a successfully and seemlessly delivered come mint day.',
     },
 ]
+
 export const PROJECTS_LIST = [
     
         ProjectOne , ProjectTwo ,ProjectThree ,ProjectFour , ProjectFive , ProjectSix , ProjectSeven , ProjectEight

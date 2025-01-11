@@ -32,12 +32,10 @@ const Header = () => {
               {item.name}
             </a>
           ))}
-          <button className="font-bold group relative lg:hidden px-8 overflow-hidden py-3 max-md:py-2 max-md:px-6 text-base max-sm:text-sm bg-white  rounded-[82px] leading-5 max-sm:leading-4">
-          <span className="group-hover:!translate-y-1/2  transition-all duration-300">Connect Wallet</span>
-        <span className="group-hover:top-1/2 whitespace-nowrap top-[150%] transition-all duration-300 left-1/2 absolute -translate-x-1/2 -translate-y-1/2">Connect Wallet</span>
-        </button>
+          <button className="font-bold font-sunflower hover:scale-110 transition-all duration-300 lg:hidden relative px-8 overflow-hidden py-3 max-md:py-2 max-md:px-6 text-base max-sm:text-sm bg-white rounded-[82px] leading-5 max-sm:leading-4">
+        Connect Wallet</button>
         </div>
-        <button className="font-bold font-sunflower max-lg:hidden relative px-8 overflow-hidden py-3 max-md:py-2 max-md:px-6 text-base max-sm:text-sm bg-white rounded-[82px] leading-5 max-sm:leading-4">
+        <button className="font-bold font-sunflower hover:scale-110 transition-all duration-300 max-lg:hidden relative px-8 overflow-hidden py-3 max-md:py-2 max-md:px-6 text-base max-sm:text-sm bg-white rounded-[82px] leading-5 max-sm:leading-4">
         Connect Wallet
     
         </button>
